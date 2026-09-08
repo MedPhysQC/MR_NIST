@@ -1,0 +1,48 @@
+{
+  "actions": {
+    "acqdatetime": {
+      "filters": {},
+      "params": {
+        "datetime_level": "Study",
+        "datetime_series_description": "QC_NIST_SAG_AP"
+      }
+    },
+    "NIST_phantom_analysis": {
+      "filters": {},
+      "params": {
+        "NIST_series1_description": "QC_NIST_SAG_AP",
+        "NIST_series2_description": "QC_NIST_SAG_PA",
+        "NIST_refPhantomDistX": "190.0",
+        "NIST_refPhantomDistY": "190.0",
+        "NIST_refPhantomDistZ": "147.5",
+        "NIST_output_all_individual_markers": "False",
+        "NIST_fixed_plot_axes": "False"
+      }
+    }
+  },
+  "cfgformat": "20181030",
+  "comments": {
+    "author": "Amr Bachmid, Joost Kuijer - Amsterdam UMC",
+    "description": "WADQC 2 module for use with NIST MR phantom acquisitions",
+    "version": "20260519"
+  },
+  "info": {
+    "acqdatetime": {
+      "params": {
+        "datetime_level": "REQUIRED. For allowed options see wad_qc.modulelibs.wadwrapper_lib.dcm_datetime.get_datetime.",
+        "datetime_series_description": "REQUIRED. Series description for retreiving datetime"
+      }
+    },
+    "NIST_phantom_analysis": {
+      "params": {
+        "NIST_series1_description": "REQUIRED. The series description of scan with regular frequency encoding gradient polarity.",
+        "NIST_series2_description": "REQUIRED. The series description of scan with reversed frequency encoding gradient polarity.",
+        "NIST_refPhantomDistX": "Diameter X of a reference phantom (e.g. ACR). Linear distortion in X is transformed into a measurable distance.",
+        "NIST_refPhantomDistY": "Diameter Y of a reference phantom (e.g. ACR). Linear distortion in Y is transformed into a measurable distance.",
+        "NIST_refPhantomDistZ": "Length Z of a reference phantom (e.g. ACR). Linear distortion in Z is transformed into a measurable distance.",
+        "NIST_output_all_individual_markers": "If True: output all images of all individual fudicial markers (will add toward load times).",
+        "NIST_fixed_plot_axes": "If True: Axes on plots are fixed at x-lim (-2,2)"
+      }
+    }
+  }
+}

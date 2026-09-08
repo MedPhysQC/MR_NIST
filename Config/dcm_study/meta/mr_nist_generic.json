@@ -1,0 +1,524 @@
+{
+    "results": {
+        "AcquisitionDateTime": {
+            "description": "date and time of acquisition",
+            "display_level": 2,
+            "display_name": "DateTime",
+            "display_position": 100,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series1_SeriesDescription": {
+            "description": "Series Description",
+            "display_level": 2,
+            "display_name": "Series1 Description",
+            "display_position": 1000,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series1_Orientation": {
+            "description": "Slice orientation of scan",
+            "display_level": 2,
+            "display_name": "Series1 main scan orientation",
+            "display_position": 1010,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series1_Markers_Detected": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "Series1 number of fiducial markers detected",
+            "display_position": 1030,
+            "constraint_is_active": true,
+            "units": "",
+            "constraint_minlowhighmax": [
+                54,
+                56,
+                null,
+                null
+            ],
+            "decimals": 0
+        },
+        "Series2_SeriesDescription": {
+            "description": "Series Description",
+            "display_level": 2,
+            "display_name": "Series2 Description",
+            "display_position": 2000,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_Orientation": {
+            "description": "Slice orientation of scan",
+            "display_level": 2,
+            "display_name": "Series2 main scan orientation",
+            "display_position": 2010,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_Markers_Detected": {
+            "description": "",
+            "display_level": "2",
+            "display_name": "Series2 number of fiducial markers detected",
+            "display_position": "2030",
+            "constraint_is_active": true,
+            "units": "",
+            "constraint_minlowhighmax": [
+                54,
+                56,
+                null,
+                null
+            ],
+            "decimals": "0"
+        },
+        "Delta_R_Max_mm": {
+            "description": "Maximum distance between detected fiducial marker position and phantom design position",
+            "display_level": 2,
+            "display_name": "Max error distance",
+            "display_position": 3000,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                2
+            ],
+            "decimals": 2
+        },
+        "Delta_X_Max_mm": {
+            "description": "Maximum error in X between detected fiducial marker position and phantom design position",
+            "display_level": 2,
+            "display_name": "Max error X",
+            "display_position": 3100,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                2
+            ],
+            "decimals": 2
+        },
+        "Delta_Y_Max_mm": {
+            "description": "Maximum error in Y between detected fiducial marker position and phantom design position",
+            "display_level": 2,
+            "display_name": "Max error Y",
+            "display_position": 3200,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                2
+            ],
+            "decimals": 2
+        },
+        "Delta_Z_Max_mm": {
+            "description": "Maximum error in Z between detected fiducial marker position and phantom design position",
+            "display_level": 2,
+            "display_name": "Max error Z",
+            "display_position": 3300,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                2
+            ],
+            "decimals": 2
+        },
+        "Delta_R_Mean_mm": {
+            "description": "Mean distance between detected fiducial marker position and phantom design position",
+            "display_level": 2,
+            "display_name": "Mean error distance",
+            "display_position": 3400,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                1.5
+            ],
+            "decimals": 2
+        },
+        "Delta_X_SD_mm": {
+            "description": "Standard deviation of error X between detected fiducial marker position and phantom design position",
+            "display_level": 2,
+            "display_name": "StdDev error X",
+            "display_position": 3500,
+            "constraint_is_active": true,
+            "units": "mm",
+            "decimals": 2,
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                0.5,
+                1
+            ]
+        },
+        "Delta_Y_SD_mm": {
+            "description": "Standard deviation of error Y between detected fiducial marker position and phantom design position",
+            "display_level": 2,
+            "display_name": "StdDev error Y",
+            "display_position": 3600,
+            "constraint_is_active": true,
+            "units": "mm",
+            "decimals": 2,
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                0.5,
+                1
+            ]
+        },
+        "Delta_Z_SD_mm": {
+            "description": "Standard deviation of error Z between detected fiducial marker position and phantom design position",
+            "display_level": 2,
+            "display_name": "StdDev error Z",
+            "display_position": 3700,
+            "constraint_is_active": true,
+            "units": "mm",
+            "decimals": 2,
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                0.5,
+                1
+            ]
+        },
+        "Delta_R_Lin_Max_mm": {
+            "description": "Maximum distance error after linear correction",
+            "display_level": 2,
+            "display_name": "Max distance error after linear correction",
+            "display_position": 4000,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                2
+            ],
+            "decimals": 2
+        },
+        "Delta_X_Lin_Max_mm": {
+            "description": "Maximum X error after linear correction",
+            "display_level": 2,
+            "display_name": "Max X error after linear correction",
+            "display_position": 4100,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                2
+            ],
+            "decimals": 2
+        },
+        "Delta_Y_Lin_Max_mm": {
+            "description": "Maximum Y error after linear correction",
+            "display_level": 2,
+            "display_name": "Max Y error after linear correction",
+            "display_position": 4200,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                2
+            ],
+            "decimals": 2
+        },
+        "Delta_Z_Lin_Max_mm": {
+            "description": "Maximum Z error after linear correction",
+            "display_level": 2,
+            "display_name": "Max Z error after linear correction",
+            "display_position": 4300,
+            "constraint_is_active": true,
+            "units": "mm",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                1,
+                2
+            ],
+            "decimals": 2
+        },
+        "Scalefactor_X": {
+            "description": "Linear fit of error in X, indicates X gradient amplitude calibration error",
+            "display_level": 2,
+            "display_name": "X scale",
+            "display_position": 5000,
+            "constraint_is_active": true,
+            "units": "",
+            "constraint_refminlowhighmax": [
+                1,
+                -0.75,
+                -0.5,
+                0.5,
+                0.75
+            ],
+            "decimals": 6
+        },
+        "Scalefactor_Y": {
+            "description": "Linear fit of error in Y, indicates Y gradient amplitude calibration error",
+            "display_level": 2,
+            "display_name": "Y scale",
+            "display_position": 5100,
+            "constraint_is_active": true,
+            "units": "",
+            "constraint_refminlowhighmax": [
+                1,
+                -0.75,
+                -0.5,
+                0.5,
+                0.75
+            ],
+            "decimals": 6
+        },
+        "Scalefactor_Z": {
+            "description": "Linear fit of error in Z, indicates Z gradient amplitude calibration error",
+            "display_level": 2,
+            "display_name": "Z scale",
+            "display_position": 5200,
+            "constraint_is_active": true,
+            "units": "",
+            "constraint_refminlowhighmax": [
+                1,
+                -0.75,
+                -0.5,
+                0.5,
+                0.75
+            ],
+            "decimals": 6
+        },
+        "CalculatedDiameter_X_mm": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "Calculated ACR phantom diameter X",
+            "display_position": 5300,
+            "constraint_is_active": false,
+            "units": "mm",
+            "decimals": 3
+        },
+        "CalculatedDiameter_Y_mm": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "Calculated ACR phantom diameter Y",
+            "display_position": 5400,
+            "constraint_is_active": false,
+            "units": "mm",
+            "decimals": 3
+        },
+        "CalculatedLength_Z_mm": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "Calculated ACR phantom length Z",
+            "display_position": 5500,
+            "constraint_is_active": false,
+            "units": "mm",
+            "decimals": 3
+        },
+        "Series1_DeviceSerialNumber": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series1_Manufacturer": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series1_ManufacturerModelName": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series1_SoftwareVersions": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series1_StationName": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series1_StudyDescription": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_AcquisitionDateTime": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_DeviceSerialNumber": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_Manufacturer": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_ManufacturerModelName": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_SoftwareVersions": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_StationName": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Series2_StudyDescription": {
+            "description": "",
+            "display_level": 1,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Error_Plot": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Error_Plot_+_Linear_Correction": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Histogram_Delta_R": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Histogram_Delta_R_+_Linear_Correction": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Excel_Report": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Interactive_Error_Plot": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Template_Overview_QC_NIST_SAG_AP": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        },
+        "Template_Overview_QC_NIST_SAG_PA": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "display_position": 0,
+            "constraint_is_active": false,
+            "units": "",
+            "decimals": null
+        }
+    },
+    "metaformat": "20180910"
+}

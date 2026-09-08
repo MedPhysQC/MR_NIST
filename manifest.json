@@ -1,0 +1,22 @@
+{
+  "info": {
+    "dbversion": "20180209",
+    "magic": "wad-qc-factory",
+    "wadqcversion": "2.1.2"
+  },
+  "module": {
+    "description": "MR NIST",
+    "executable": "main.py",
+    "name": "MR_NIST",
+    "code": "python",
+    "dependencies": [
+      "scikit-image",
+      "plotly",
+      "openpyxl",
+      "numpy",
+      "pydicom",
+      "scipy",
+      "matplotlib"
+    ]
+  }
+}
